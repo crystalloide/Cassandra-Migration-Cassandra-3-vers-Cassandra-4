@@ -13,7 +13,7 @@ Par conséquent, les étapes comportent des notes décrivant le travail *supplé
 **********************************************************************************************************************************
 ## Dans ce TP, nous allons :
 
-- Démarrer un cluster Cassandra 3.x à nœud unique
+- Installer (option1) ou Démarrer (option2) un cluster Cassandra 3.x à nœud unique
 - Créer un schéma et y insérer des données
 - Préparer le nœud pour la migration
 - Installer Cassandra 4.x
@@ -21,6 +21,10 @@ Par conséquent, les étapes comportent des notes décrivant le travail *supplé
 - Vérifier que le nœud a été migré avec succès
 
 _ Pour aller plus loin : [https://www.datastax.com/learn/whats-new-for-cassandra-4](https://www.datastax.com/learn/whats-new-for-cassandra-4) _
+
+**********************************************************************************************************************************
+
+## Rappel pour retrouver les environnements éventuellement précédemment instanciés dans Gitpod : [ https://gitpod.io/workspaces ](https://gitpod.io/workspaces)
 
 **********************************************************************************************************************************
 
