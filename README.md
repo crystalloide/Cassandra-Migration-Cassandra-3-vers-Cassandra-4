@@ -1,7 +1,7 @@
 **********************************************************************************************************************************
 # Migration de Cassandra 3.x vers 4.x
 **********************************************************************************************************************************
-## Nous allons voir comment monter de version un cluster Apache Cassandra de la version 3.x vers la version 4.x :
+## Principe et réalisation d'une migration d'un cluster Apache Cassandra de la version 3.x vers la version 4.x :
 **********************************************************************************************************************************
 
 Pour simplifier ici, on effectuera une migration d'un cluster *à nœud unique*. 
