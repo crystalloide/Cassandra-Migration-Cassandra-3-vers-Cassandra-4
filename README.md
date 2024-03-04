@@ -46,27 +46,27 @@ _ Pour aller plus loin : [https://www.datastax.com/learn/whats-new-for-cassandra
     java -version
     
 
-✅ Installation de cassandra 3.11 : 
+✅ Installation de cassandra 3.11.x : 
 
 Download the binary tarball from one of the mirrors on the Apache Cassandra Download site. 
 
-    curl -OL http://apache.mirror.digitalpacific.com.au/cassandra/3.11/apache-cassandra-3.11-bin.tar.gz
+    curl -OL https://downloads.apache.org/cassandra/3.11.16/apache-cassandra-3.11.16-bin.tar.gz
 
     
 The mirrors only host the latest versions of each major supported release. To download an earlier version of Cassandra, visit the Apache Archives.
 
 OPTIONAL: Verify the integrity of the downloaded tarball using one of the methods here. For example, to verify the hash of the downloaded file using GPG:
 
-    gpg --print-md SHA256 apache-cassandra-3.11-bin.tar.gz
+    gpg --print-md SHA256 apache-cassandra-3.11.16-bin.tar.gz
     
 Compare the signature with the SHA256 file from the Downloads site:
 
-    curl -L https://downloads.apache.org/cassandra/3.11/apache-cassandra-3.11-bin.tar.gz.sha256
+    curl -L https://downloads.apache.org/cassandra/3.11.16/apache-cassandra-3.11.16-bin.tar.gz.sha256
 
 
 Unpack the tarball:
 
-    tar xzvf apache-cassandra-3.11-bin.tar.gz
+    tar xzvf apache-cassandra-3.11.16-bin.tar.gz
     
 The files will be extracted to the apache-cassandra-3.11/ directory. This is the tarball installation location.
 
